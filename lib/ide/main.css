@@ -1,0 +1,32 @@
+#middleContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  clear: both;
+}
+
+#middleContainer .left {
+  order: 1;
+  flex: 1 1 auto;
+  align-self: auto;
+  min-width: 10px;
+  min-height: auto;
+}
+
+#middleContainer .middle {
+  order: 1;
+  flex: 9 1 auto;
+  align-self: auto;
+  min-width: 10px;
+  min-height: auto;
+}
+
+#middleContainer .right {
+  order: 1;
+  flex: 1 1 auto;
+  align-self: auto;
+  min-width: 10px;
+  min-height: auto;
+}

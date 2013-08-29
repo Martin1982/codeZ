@@ -1,0 +1,43 @@
+#filebrowser{
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+#filebrowser ul {
+  list-style: url('images/icons/folder.png') inside;
+}
+
+#filebrowser .type.folder {
+  list-style: url('images/icons/folder.png') inside;
+}
+
+#filebrowser .type.file {
+  list-style: url('images/icons/page_white.png') inside;
+}
+
+#filebrowser .type.html {
+  list-style: url('images/icons/page_white_world.png') inside;
+}
+
+#filebrowser .type.css {
+  list-style: url('images/icons/page_white_star.png') inside;
+}
+
+#filebrowser .type.javascript {
+  list-style: url('images/icons/page_white_code.png') inside;
+}
+
+.toolbar {
+  background-color: #A7A7A7;
+}
+
+.toolbar .add {
+  height: 32px;
+  width: 32px;
+  background: url('images/icons/add.png') #ccc no-repeat 6px 6px;
+  margin: 3px;
+}
+
+.toolbar .add:active {
+  background: url('images/icons/add.png') #ccc no-repeat 8px 8px;
+}

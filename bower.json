@@ -1,0 +1,27 @@
+{
+  "name": "codez",
+  "version": "0.0.0",
+  "homepage": "http://www.martindekeijzer.nl",
+  "authors": [
+    "Martin de Keijzer <martin.dekeijzer@gmail.com>"
+  ],
+  "description": "Online code editor",
+  "keywords": [
+    "coding"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "reset-css": "~2.0.20110126",
+    "codemirror": "~3.16.0",
+    "jquery-modal": "~0.5.2"
+  }
+}
