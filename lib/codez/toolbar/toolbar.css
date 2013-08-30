@@ -1,4 +1,15 @@
 @charset "UTF-8";
+/**
+ * codeZ custom
+ */
+
+ul.dropdown {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: rgb(246, 246, 246);
+  border: 1px solid #666;
+  width: 100%;
+}
 
 /**
  * Horizontal CSS Drop-Down Menu Module
