@@ -5,6 +5,13 @@
 
 #filebrowser ul {
   list-style: url('images/icons/folder.png') inside;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+#filebrowser ul li {
+  height: 16px;
+  vertical-align: top;
 }
 
 #filebrowser .type.folder {
@@ -28,16 +35,6 @@
 }
 
 .toolbar {
-  background-color: #A7A7A7;
-}
-
-.toolbar .add {
-  height: 32px;
-  width: 32px;
-  background: url('images/icons/add.png') #ccc no-repeat 6px 6px;
-  margin: 3px;
-}
-
-.toolbar .add:active {
-  background: url('images/icons/add.png') #ccc no-repeat 8px 8px;
+  background-color: #EEE;
+  height: 20px;
 }
