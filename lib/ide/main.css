@@ -1,3 +1,22 @@
+body {
+    font-family: Helvetica, sans-serif !important;
+    font-size: 12px !important;
+}
+
+h1 {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 15px !important;
+}
+
+label {
+    min-width: 100px;
+    display: inline-block;
+}
+
 #middleContainer {
   display: flex;
   flex-flow: row nowrap;
