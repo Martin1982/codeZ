@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
     font-family: Helvetica, sans-serif !important;
     font-size: 12px !important;
@@ -23,15 +27,17 @@ label {
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
+  height: 100%;
   clear: both;
 }
 
 #middleContainer .left {
+  background-color: #fafafa;
   order: 1;
   flex: 1 1 auto;
   align-self: auto;
   min-width: 10px;
-  min-height: auto;
+  height: 100%;
 }
 
 #middleContainer .middle {
@@ -39,13 +45,14 @@ label {
   flex: 9 1 auto;
   align-self: auto;
   min-width: 10px;
-  min-height: auto;
+  height: 100%;
 }
 
 #middleContainer .right {
+  background-color: #fafafa;
   order: 1;
   flex: 1 1 auto;
   align-self: auto;
   min-width: 10px;
-  min-height: auto;
+  height: 100%;
 }
