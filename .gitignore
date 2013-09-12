@@ -1,3 +1,5 @@
 .idea
 .DS_Store
-
+devvm/.vagrant
+devvm/provisioning/Cheffile.lock
+devvm/provisioning/tmp
